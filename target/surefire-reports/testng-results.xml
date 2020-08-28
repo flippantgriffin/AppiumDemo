@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="104193" started-at="2020-08-28T01:34:23Z" finished-at="2020-08-28T01:36:07Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="104193" started-at="2020-08-28T01:34:23Z" finished-at="2020-08-28T01:36:07Z">
+      <class name="ecommerce.Ecommerce_tc_4">
+        <test-method status="PASS" signature="totalValidation()[pri:0, instance:ecommerce.Ecommerce_tc_4@343f4d3d]" name="totalValidation" duration-ms="45228" started-at="2020-08-28T01:34:23Z" finished-at="2020-08-28T01:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalValidation -->
+      </class> <!-- ecommerce.Ecommerce_tc_4 -->
+      <class name="ApiDemos">
+        <test-method status="PASS" signature="killAllNodes()[pri:0, instance:ApiDemos@53b32d7]" name="killAllNodes" is-config="true" duration-ms="50" started-at="2020-08-28T01:34:23Z" finished-at="2020-08-28T01:34:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killAllNodes -->
+        <test-method status="PASS" signature="killAllNodes()[pri:0, instance:ecommerce.Ecommerce_tc_4@343f4d3d]" name="killAllNodes" is-config="true" duration-ms="2" started-at="2020-08-28T01:34:23Z" finished-at="2020-08-28T01:34:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killAllNodes -->
+        <test-method status="PASS" signature="apiDemo(java.lang.String)[pri:0, instance:ApiDemos@53b32d7]" name="apiDemo" duration-ms="30393" started-at="2020-08-28T01:35:08Z" data-provider="InputData" finished-at="2020-08-28T01:35:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemo -->
+        <test-method status="PASS" signature="apiDemo(java.lang.String)[pri:0, instance:ApiDemos@53b32d7]" name="apiDemo" duration-ms="28506" started-at="2020-08-28T01:35:38Z" data-provider="InputData" finished-at="2020-08-28T01:36:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemo -->
+      </class> <!-- ApiDemos -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
